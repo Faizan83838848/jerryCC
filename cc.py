@@ -8,7 +8,6 @@ import time
 import asyncio
 import os
 from corex import bin
-
 def detect_os():
     if "win" in sys.platform:
         return "windows"
@@ -30,8 +29,8 @@ def logo():
     figlet = Figlet(font="standard").renderText("jerry CC")
     return (gn + figlet)
 print (logo())
-print (bl + "[-] MADE BY jerry (Faizan) ")
-print (gn + "[+] TELE:- sedxjerryhack ")
+print (bl + "[-] MADE BY jerry Faizan")
+print (gn + "[+] TELE:-sedxjerryhack")
 print (cy + "[=] jerry CC Tools Version : 1.2")
 
 opr = input (mag + "\n[x] 1) Generate single valid cc\n[x] 2) Generate multi valid cc (generate cc list)\n[x] 3) CC validator\n[x] 4) Generate Multi Bin Number \n\n[^] Please Enter an option :  ")
